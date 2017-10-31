@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vueProgress</title>
+</head>
+<body>
+<div id="app">
+</div>
+</body>
+<script src="../node_modules/vue/dist/vue.min.js"></script>
+<script src="../lib/index.js"></script>
+<script>
+    Vue.use(VueProgress);
+    new Vue({
+        el: '#app',
+        mounted () {
+            let instance = this.$loadingBar({
+                color: 'green',
+                speed: 10,
+                percentNum: 0.1,
+                easing: 'ease',
+                showSpinner: false
+            });
+            instance.set(0.4);
+            instance.start();
+            setTimeout(function () {
+                instance.done();
+            }, 3000)
+        }
+    });
+</script>
+</html>
