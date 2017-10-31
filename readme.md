@@ -12,6 +12,10 @@
   <a href="https://www.npmjs.com/package/vue-meta-info"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a> 
 </p>
 
+<p align="center">
+ <img src='http://img.souche.com/f2e/d174c1f2343ab2040be51e029bb8b2cd.gif'>
+</p>
+
 ```js
 Vue.use(VueProgress); // 注册实例
 

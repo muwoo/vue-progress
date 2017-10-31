@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>vueProgress</title>
 </head>
+<style>
+    #app{
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+</style>
 <body>
 <div id="app">
+    {{msg}}
 </div>
 </body>
 <script src="../node_modules/vue/dist/vue.min.js"></script>
@@ -14,17 +25,19 @@
     Vue.use(VueProgress);
     new Vue({
         el: '#app',
+        data: {
+            msg: '正在加载....'
+        },
         mounted () {
-            let instance = this.$loadingBar({
+            let instance = this.$vueProgress({
                 color: 'green',
                 speed: 10,
                 percentNum: 0.1,
-                easing: 'ease',
-                showSpinner: false
+                easing: 'ease'
             });
-            instance.set(0.4);
             instance.start();
-            setTimeout(function () {
+            setTimeout(() => {
+                this.msg = '加载成功';
                 instance.done();
             }, 3000)
         }
