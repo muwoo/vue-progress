@@ -1,5 +1,5 @@
 {
-  "name": "vue-progress",
+  "name": "vue2-progress",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -7,7 +7,7 @@
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "monkeywang",
+  "author": "monkeywangs <2424880409@qq.com>",
   "license": "ISC",
   "dependencies": {
     "rollup-plugin-buble": "^0.16.0",

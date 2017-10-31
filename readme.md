@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
- <img src='https://github.com/monkeyWangs/vue-progress/blob/master/assets/img/exmple.gif'>
+ <img src='//img.souche.com/f2e/5c78e5cafc6b0ee96784cd27c634bb7e.gif'>
 </p>
 
 ```js
@@ -42,19 +42,19 @@ setTimeout(function () {
 # Installation
 ### Yarn
 ```sh
-$ yarn add vue-progress
+$ yarn add vue2-progress
 ```
 
 ### NPM
 ```sh
-$ npm install vue-progress --save
+$ npm install vue2-progress --save
 ```
 
 # Usage
 ### 1. 注册
 ```js
 import Vue from 'vue'
-import VueProgress from 'vue-progress'
+import VueProgress from 'vue2-progress'
 
 Vue.use(VueProgress)
 ```
