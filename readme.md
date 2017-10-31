@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
- <img src='http://img.souche.com/f2e/d174c1f2343ab2040be51e029bb8b2cd.gif'>
+ <img src='https://github.com/monkeyWangs/vue-progress/blob/master/assets/img/exmple.gif'>
 </p>
 
 ```js
