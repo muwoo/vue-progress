@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
- <img src='https://github.com/monkeyWangs/public/blob/master/e.gif'>
+ <img src='https://github.com/monkeyWangs/public/blob/master/exmple.gif'>
 </p>
 
 ```js
