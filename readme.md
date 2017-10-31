@@ -36,7 +36,7 @@ setTimeout(function () {
 - [Examples](#Examples)
 
 # description
-这是一种类似于Google, YouTube的ajax加载进度条插件，基于vue 2.0版本之上，可以自定义插件样式和效果。
+这是一种类似于Github, Google, YouTube的ajax加载进度条插件，基于vue 2.0版本之上，可以自定义插件样式和效果。
 
 # Installation
 ### Yarn
