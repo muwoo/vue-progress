@@ -6,10 +6,9 @@
 </h5>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/vue-meta-info"><img src="https://img.shields.io/badge/npm-0.1.1-brightgreen.svg" alt="npm version"></a> 
-  <img src="https://img.shields.io/badge/codecov-95.83%25%20-brightgreen.svg">
+<a href="https://www.npmjs.com/package/vue2-progress"><img src="https://img.shields.io/badge/npm-1.0.0-brightgreen.svg" alt="npm version"></a> 
   <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
-  <a href="https://www.npmjs.com/package/vue-meta-info"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a> 
+  <a href="https://www.npmjs.com/package/vue2-progress"><img src="https://img.shields.io/badge/licence-MIT-blue.svg"></a> 
 </p>
 
 <p align="center">
