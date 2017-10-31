@@ -32,14 +32,13 @@
             let instance = this.$vueProgress({
                 color: 'green',
                 speed: 10,
-                percentNum: 0.1,
-                easing: 'ease'
+                percentNum: 0.5
             });
             instance.start();
             setTimeout(() => {
                 this.msg = '加载成功';
                 instance.done();
-            }, 3000)
+            }, 1000)
         }
     });
 </script>
